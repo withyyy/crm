@@ -1,0 +1,8 @@
+spring:
+  mvc:
+    static-path-pattern: /static/**
+logging:
+  level:
+    cn.withyyy.crm.dao: trace
+  pattern:
+    console: '%p %m%n'

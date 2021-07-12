@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test1</title>
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function () {
+        $("#djBtn").click(function () {
+            // $("#msg").html(123)
+            $.ajax({
+                url:"",
+                data:"k1=v1&k2=v2",
+
+
+            })
+            $.ajax(
+                {
+                    url: "",
+                    data: {
+                        "k1":"v1",
+                        "k2":"v2"
+                    }
+                }
+            )
+
+        })
+    })
+
+  </script>
+</head>
+<body>
+    <button id="djBtn">点击</button>
+    <br>
+    <br>
+    <div id="msg" style="width: 200px;height: 200px;background-color: deeppink">
+        abcde
+
+    </div>
+
+    <div id="msg1" style="width: 200px;height: 200px;background-color: deeppink">
+        abcde
+
+    </div>
+</body>
+</html>
