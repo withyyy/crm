@@ -1,6 +1,6 @@
 spring:
   mvc:
-    static-path-pattern: /static/**
+    static-path-pattern: /**
 logging:
   level:
     cn.withyyy.crm.dao: trace
